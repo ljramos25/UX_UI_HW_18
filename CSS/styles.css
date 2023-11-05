@@ -1,0 +1,119 @@
+body {
+    background-color:#242222;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    padding-top: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a{
+    margin-left: 50px; 
+    font-weight: bold;
+    font-size: medium;
+}
+span {
+    color:#FFD540;
+}
+.head{
+    text-align:center;
+    font-weight:400px;
+    color: #FFD540;
+    font-size:64px;
+    font-style: normal;
+    padding:5px;
+}
+
+.case_title {
+    color:#FFD540;
+    text-align: center;
+}
+
+h4 {
+    color: #FFD540;
+    font-weight: bolder;
+}
+footer {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.secondary_text{
+    width: 878px;
+height: 79px;
+flex-shrink: 0; 
+}
+ul {  
+    list-style-type: none;
+     margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+li {
+    display: inline;
+    width:max-content;
+    top:auto;
+    position:static;
+    max-width: max-content;
+    font-weight:400;
+}
+a {
+    display: block;
+    padding: 8px;
+    background-color: #242222;
+    font-weight:400;
+  }
+#case_div {
+    border-style: solid;
+    height: 100px;
+    width: 1000px;
+    margin:auto;
+    background-color:#242222;
+    border-radius:20px;
+    border-color: #FFD540;
+    outline:#FFD540;
+    outline: style solid;
+    text-indent:20px;
+    margin-bottom: 20px;
+}
+.case-study-links{
+    margin:20px;
+}
+.case_view{
+    text-align:center;
+    padding:20px;
+}
+.social2 {
+    margin-bottom:7px;
+}
+.nav a {
+    color:white;
+    font: weight bold;
+    text-decoration:none;
+    float:left;
+}
+.nav a:hover{
+    color:#FFD540
+}
+footer{
+    padding:50px;
+    text-align: center;
+}
+.case-study-links a{
+    margin-top:20px;
+    text-decoration:none;
+    padding:0;
+    color: #FFD540;
+    font-weight: bolder;
+}
+.case-study-links a:hover{
+    color:white
+}
