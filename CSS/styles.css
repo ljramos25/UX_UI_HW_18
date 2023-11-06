@@ -8,19 +8,27 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    font-weight:400px;
     }
-li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+li a {
+    font-weight:bold;
 }
-li a{
-    margin-left: 50px; 
-    font-weight: bold;
-    font-size: medium;
-}
-span {
+.nav a {
+    color:white;
+    text-decoration:none;
+    float:left;
+    }
+.nav a:hover{
     color:#FFD540;
+    }
+.nav-link {
+    display: inline;
+    width:max-content;
+    top:auto;
+    position:static;
+    max-width: max-content;
+    margin-left: 75px; 
+    font-weight:400px;
 }
 .head{
     text-align:center;
@@ -30,15 +38,9 @@ span {
     font-style: normal;
     padding:5px;
 }
-
 .case_title {
     color:#FFD540;
     text-align: center;
-}
-
-h4 {
-    color: #FFD540;
-    font-weight: bolder;
 }
 footer {
     text-align: center;
@@ -58,62 +60,69 @@ ul {
     overflow: hidden;
   }
 li {
-    display: inline;
-    width:max-content;
-    top:auto;
-    position:static;
-    max-width: max-content;
-    font-weight:400;
 }
 a {
     display: block;
     padding: 8px;
-    background-color: #242222;
     font-weight:400;
   }
 #case_div {
+    text-align:center;
+    margin: auto;
     border-style: solid;
-    height: 100px;
-    width: 1000px;
-    margin:auto;
+    height: 500px;
+    width: 300px;
+    margin: 20px;
     background-color:#242222;
-    border-radius:20px;
+    border-radius:40px;
     border-color: #FFD540;
     outline:#FFD540;
     outline: style solid;
-    text-indent:20px;
-    margin-bottom: 20px;
+    text-indent:0px;
+    margin-right:5px;
+}
+.case_link {
+    list-style-type: none;
 }
 .case-study-links{
     margin:20px;
-}
-.case_view{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
     text-align:center;
-    padding:20px;
-}
-.social2 {
-    margin-bottom:7px;
-}
-.nav a {
-    color:white;
-    font: weight bold;
-    text-decoration:none;
-    float:left;
-}
-.nav a:hover{
-    color:#FFD540
-}
-footer{
-    padding:50px;
-    text-align: center;
 }
 .case-study-links a{
     margin-top:20px;
     text-decoration:none;
-    padding:0;
+    padding:10px;
     color: #FFD540;
     font-weight: bolder;
 }
 .case-study-links a:hover{
     color:white
+}
+.case_view {
+    text-align:center;
+}
+.case_view a {
+    margin-top:20px;
+    text-decoration:none;
+    padding:0;
+    color: #FFD540;
+    font-weight: bolder;
+    text-align: center;
+}
+.case_view a:hover{
+    color: white;
+}
+.social2 {
+    margin-bottom:7px;
+}
+footer{
+    padding:50px;
+    text-align: center;
+}
+h4 {
+    color: #FFD540;
+    font-weight: bolder;
 }
